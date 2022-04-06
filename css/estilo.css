@@ -1,0 +1,100 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.width--height{
+    height: 100px;
+    }
+.height_minimundo{
+    width: 50%;
+}
+.height{
+    max-width: 100%;
+    height: auto
+}
+.height2{
+    height: 70px;
+}
+.heightnft{
+    height: 400px;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+li{
+    display: inline-flex;
+    text-align: center;
+    font-size: 25px;
+    padding: 5%;
+    margin-right: 4%;
+}
+.colorAzulOscuro {
+    background-color:rgb(11, 0, 56)
+}
+.display1 {
+    display: inline-block;
+}
+.colorMorado {
+    background-color: rgb(57, 0, 36);
+}
+.colorBlanco {
+    background-color: white;
+}
+.tipografiaBlanca{
+    color: white;
+}
+.tipografiaAzul{
+    color: rgb(11, 0, 56)
+}
+.tipografiaTamañoParrafo{
+    font-size: 15px;
+}
+.displayFlex{
+    display: flex;
+
+}
+.displayFlexCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.pading{
+    padding: 3%;
+}
+.paddingLeft {
+    padding-left: 300px;
+}
+.paddingRight{
+    padding-right: 50%;
+}
+.bMorado{
+    border-top: solid 5px rgb(57, 0, 36);
+    border-bottom: solid 5px rgb(57, 0, 36);
+}
+.margin1{
+    margin-right: 200px;
+}
+#grid-container{
+    display: grid;
+    background-color: rgb(57, 0, 36);
+    grid-template-areas: 'header header header' 'main menu menu' 'footer footer footer';
+    }
+.gridHeader{
+    grid-area: header;
+}
+.gridMain{
+    grid-area: main;
+    display: inline-block;
+}
+.gridMenu{
+    grid-area: menu;
+}
+.gridFooter{
+    grid-area: footer;
+    text-align: center;
+}
+#gridsection1{
+    grid-area: main;
+}
